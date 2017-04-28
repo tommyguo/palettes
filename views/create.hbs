@@ -1,0 +1,25 @@
+<h1> Create a Palette </h1>
+{{#if error}}
+    <h2 class="error"> Error: {{error}} </h2>
+{{else}}
+    <h2> Pick 5 colors for your palette </h2>
+{{/if}}
+
+
+
+<div class="form">
+    <form method="POST" action="">
+        <label for="name">Palette Name:</label>
+
+        <input class="create" type="text" name="name" id="name">
+        <input type="submit" value="Submit Palette">
+
+        <h2> </h2>
+
+        {{#each colors}}
+            <div class="color" style="background-color:{{{this}}}">
+                <input type="checkbox" name="{{@index}}" class="check">
+            </div>
+        {{/each}}
+    </form>
+</div>

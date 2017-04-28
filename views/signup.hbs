@@ -1,0 +1,18 @@
+<script src="/javascripts/validation.js"></script>
+<h1> Signup </h1>
+
+{{#if error}}
+    <h2 class="error"> {{error}} </h2>
+{{else}}
+    <br>
+{{/if}}
+
+<div class="form">
+  <form method="POST" action="">
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username">
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password">
+      <input type="submit" value="signup" id="submit">
+  </form>
+</div>

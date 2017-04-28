@@ -1,0 +1,123 @@
+* {
+  font-family: "Raleway", Arial, sans-serif;
+  text-align: center;
+}
+
+body {
+  padding-top: 20px;
+}
+
+h1 {
+  color: #222;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.links a {
+  color: #1EAEDB;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+a {
+  color: #1EAEDB;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+input[type="submit"] {
+  height: 30px;
+  padding: 0 30px;
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+}
+
+input[type="text"] {
+  height: 30px;
+  font-size: 11px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  margin: 20px;
+}
+
+.create {
+  width: 300px;
+}
+
+
+input[type="password"] {
+  height: 30px;
+  font-size: 11px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  margin: 20px;
+}
+
+input[type="checkbox"] {
+  float: left;
+  width: 20px;
+}
+
+
+.color {
+  color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-shadow: 2px 2px 2px #333133;
+  height: 217px;
+  width: 20%;
+}
+
+.account {
+  float: right;
+  display: inline-block;
+  position: relative;
+  bottom: 23px;
+}
+
+.links {
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.username {
+  float: right;
+  position: relative;
+  right: 20px;
+}
+
+.delete {
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
+  left: 42%;
+}
+
+
+.name {
+  color: white;
+  font-size: 30px;
+}
+
+.palette {
+  margin: 50px;
+}
+
+.error {
+  color: #cc0000;
+}

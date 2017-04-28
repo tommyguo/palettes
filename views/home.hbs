@@ -1,0 +1,25 @@
+<script src="/javascripts/main.js"></script>
+<h1> Palettes </h1>
+
+
+{{#each palettes}}
+    <div class="palette">
+        <h2> {{this.name}} </h2>
+        {{#each colors}}
+            <div class="color" style="background-color:{{{this.hex}}}" id="{{{this.hex}}}"> </div>
+        {{/each}}
+        <p class="username"> created by <a href='/user/{{this.user}}'>{{this.user}}</a>  </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+{{/each}}

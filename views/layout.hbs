@@ -1,0 +1,24 @@
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+
+<div class="nav">
+    <div class="links">
+      <a href='/'> Home </a>
+      <a href='/palette/create'> Create a Palette </a>
+
+
+    </div>
+    <div class="account">
+      {{#if name}}
+          <span> Logged in as </span> <a href='/user/{{name}}'>{{name}}</a> |
+          <a href='/logout'> (Logout) </a>
+      {{else}}
+          <a href='/login'> Login </a>
+          or
+          <a href='/signup'> Signup </a>
+      {{/if}}
+
+    </div>
+</div>
+
+<br>
+<br> {{{body}}}
